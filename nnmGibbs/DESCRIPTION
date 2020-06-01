@@ -1,0 +1,28 @@
+Package: nnmGibbs
+Type: Package
+Title: Inference for the MCMC Gibbs Sampler of NNM Model
+Version: 0.0.0.9000
+Date: 2020-04-17
+Authors@R: 
+  c(person(given = "Chenxi",
+           family = "Zhang",
+           role = c("aut", "cre"),
+           email = "c462zhan@edu.uwaterloo.ca",
+           comment = c(ORCID = "0000-0001-8049-7069")),
+    person(given = "Ziqing",
+           family = "Chen",
+           role = "ctb",
+           comment = c(ORCID = "0000-0002-4035-0289")),
+    person(given = "Jiabo",
+           family = "Liu",
+           role = "ctb"))
+Maintainer: Chenxi Zhang <c462zhan@edu.uwaterloo.ca>
+Description: Implements the Conditional Update and the Gibbs Sampler of the parameters of NNM Model. 
+Imports: mniw
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Suggests: 
+    testthat
